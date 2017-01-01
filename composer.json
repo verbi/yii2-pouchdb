@@ -1,0 +1,29 @@
+{
+	"name": "verbi/yii2-pouchdb",
+	"description": "Yii2 Pouchdb Extension.",
+	"keywords": ["yii2", "extension", "pouchdb", "html"],
+	"type": "yii2-extension",
+	"license": "GPLv3",
+	"authors": [
+		{
+			"name": "Philip Verbist",
+			"email": "philip.verbist@gmail.com"
+		}
+	],
+	"support": {
+		"source": "https://github.com/verbi/yii2-pouchdb"
+	},
+        "requires": [
+          {
+              "bower-asset/pouchdb": "*"
+          }  
+        ],
+        "extra": {
+            "bootstrap": "verbi\\yii2Helpers\\Bootstrap"
+        },
+	"autoload": {
+		"psr-4": {
+			"verbi\\yii2Helpers\\": "src/"
+		}
+	}
+}
